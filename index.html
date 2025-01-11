@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Start your development with JohnDoe landing page.">
     <meta name="author" content="Marta Llorca">
     <meta name="generator" content="SublimeText">
@@ -16,6 +16,7 @@
 	<link rel="stylesheet" href="assets/css/johndoe.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <!-- Otros enlaces, metaetiquetas, etc. -->
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i></a>
@@ -67,7 +68,7 @@
                         <a href="#blog" class="nav-link">Últimas publicaciones</a>
                     </li>
                     <li class="nav-item last-item">
-                        <a href="#contact" class="nav-link">Contacto</a>
+                        <a href="#formulario-contacto" class="nav-link">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -320,35 +321,35 @@
                         </div>
                     </div>
                 </div>
-<!--
-    <section class="section bg-custom-gray" id="price">
+    
+        <section class="section bg-custom-gray" id="price">
         <div class="container">
-            <h1 class="mb-5"><span class="text-danger">Packs</span> Pricing</h1>
+            <h1 class="mb-5"><span class="text-danger">Packs</span> Precio</h1>
             <div class="row align-items-center">
                 <div class="col-md-6 col-lg-3">
                     <div class="price-card text-center mb-4">
-                        <h3 class="price-card-title">Free</h3>
+                        <h3 class="price-card-title">Creación de contenido</h3>
                         <div class="price-card-cost">
-                            <sup class="ti-money"></sup>
-                            <span class="num">0</span>
-                            <span class="date">MO</span>
+                            <sup class="ti-wallet"></sup>
+                            <span class="num">300</span>
+                            <span class="date">Mes</span>
                         </div>
                         <ul class="list">
-                            <li class="list-item">5 <span class="text-muted">Project</span></li>
-                            <li class="list-item">1GB <span class="text-muted">Storage</span></li>
-                            <li class="list-item"><span class="text-muted">No Domain</span></li>
-                            <li class="list-item">1 <span class="text-muted">User</span></li>
+                            <li class="list-item">Instagram <span class="text-muted"></span></li>
+                            <li class="list-item">TikTok <span class="text-muted"></span></li>
+                            <li class="list-item">Twitter<span class="text-muted"></span></li>
+                            <li class="list-item">Análisis <span class="text-muted">Resultados</span></li>
                         </ul>
-                        <button class="btn btn-primary btn-rounded w-lg">Subscribe</button>
+                        <a class="btn btn-primary btn-rounded w-lg" href="#formulario-contacto">Consíguelo</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="price-card text-center mb-4">
-                        <h3 class="price-card-title">Basic</h3>
+                        <h3 class="price-card-title">Redacción</h3>
                         <div class="price-card-cost">
-                            <sup class="ti-money"></sup>
-                            <span class="num">10</span>
-                            <span class="date">MO</span>
+                            <sup class="ti-wallet"></sup>
+                            <span class="num">50</span>
+                            <span class="date">Unidad</span>
                         </div>
                         <ul class="list">
                             <li class="list-item">50 <span class="text-muted">Project</span></li>
@@ -356,47 +357,46 @@
                             <li class="list-item">1<span class="text-muted">Domain</span></li>
                             <li class="list-item">5 <span class="text-muted">User</span></li>
                         </ul>
-                        <button class="btn btn-primary btn-rounded w-lg">Subscribe</button>
+                        <a class="btn btn-primary btn-rounded w-lg" href="#formulario-contacto">Consíguelo</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="price-card text-center price-card-requried mb-4">
-                        <h3 class="price-card-title">Exclusive</h3>
+                        <h3 class="price-card-title">Fotografía</h3>
                         <div class="price-card-cost">
-                            <sup class="ti-money"></sup>
-                            <span class="num">25</span>
-                            <span class="date">MO</span>
+                            <sup class="ti-wallet"></sup>
+                            <span class="num">500</span>
+                            <span class="date">Sesión</span>
                         </div>
                         <ul class="list">
-                            <li class="list-item">150 <span class="text-muted">Project</span></li>
-                            <li class="list-item">15GB <span class="text-muted">Storage</span></li>
-                            <li class="list-item">5<span class="text-muted"> Domain</span></li>
-                            <li class="list-item">15<span class="text-muted">User</span></li>
+                            <li class="list-item">50 <span class="text-muted">Fotos</span></li>
+                            <li class="list-item">1 <span class="text-muted">Vídeo Resumen</span></li>
+                            <li class="list-item">1<span class="text-muted"> Álbum</span></li>
+                            <li class="list-item">Fotografía <span class="text-muted">Digital</span></li>
                         </ul>
-                        <button class="btn btn-primary btn-rounded w-lg">Subscribe</button>
+                        <a class="btn btn-primary btn-rounded w-lg" href="#formulario-contacto">Consíguelo</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="price-card text-center mb-4">
-                        <h3 class="price-card-title">Pro</h3>
+                        <h3 class="price-card-title">Reportera</h3>
                         <div class="price-card-cost">
-                            <sup class="ti-money"></sup>
-                            <span class="num">99</span>
-                            <span class="date">MO</span>
+                            <sup class="ti-wallet"></sup>
+                            <span class="num">50</span>
+                            <span class="date">Directo</span>
                         </div>
                         <ul class="list">
-                            <li class="list-item">500 <span class="text-muted">Project</span></li>
-                            <li class="list-item">1000GB <span class="text-muted">Storage</span></li>
-                            <li class="list-item">10<span class="text-muted"> Domain</span></li>
-                            <li class="list-item">Unlimite<span class="text-muted">User</span></li>
+                            <li class="list-item">Última <span class="text-muted">Hora</span></li>
+                            <li class="list-item">Equipo <span class="text-muted">Propio</span></li>
+                            <li class="list-item">Vehículo<span class="text-muted"> Propio</span></li>
+                            <li class="list-item">Información <span class="text-muted">Actualidad</span></li>
                         </ul>
-                        <button class="btn btn-primary btn-rounded w-lg">Subscribe</button>
+                        <a class="btn btn-primary btn-rounded w-lg" href="#formulario-contacto">Consíguelo</a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-s-->
+    
     <section class="section bg-dark py-5">
         <div class="container text-center">
             <h2 class="text-light mb-5 font-weight-normal">Disponible para trabajar como FreeLance</h2>
@@ -410,96 +410,93 @@ s-->
             <h1 class="mb-5"><span class="text-danger">Mi</span> Portfolio</h1>
             <div class="portfolio">
                 <div class="filters">
-                    <!--
                     <a href="#" data-filter=".new" class="active">
-                        Nuevo
+                        Resumen
                     </a>
-                    -->
-                    <a href="#" data-filter=".advertising" class="active">
+                    <a href="#" data-filter=".advertising">
                         Redacción
                     </a>
                     <a href="#" data-filter=".branding">
-                        Community Manager
+                        Fotografía
                     </a>
                     <a href="#" data-filter=".web">
-                        Fotografía
+                        Community Manager
                     </a>
                 </div>
                 <div class="portfolio-container"> 
-                    <!--
                     <div class="col-md-6 col-lg-4 web new">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/web-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <img src="assets/imgs/RRSS1.png" class="img-fluid" alt="Perfil RRSS Radio UMH">
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/web-1.jpg"></a>
                                 <div class="text-holder">
-                                    <h6 class="title">WEB</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                    <h6 class="title">CREACIÓN DE CONTENIDO</h6>
+                                    <p class="subtitle">Para RADIO UMH</p>
                                 </div>
                             </div>   
-                        </div>        
+                        </div>             
                     </div>
-
                     <div class="col-md-6 col-lg-4 web new">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/web-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <img src="assets/imgs/RRSS2.png" class="img-fluid" alt="Estadísticas de contenido Radio UMH">
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/web-2.jpg"></a>
                                 <div class="text-holder">
-                                    <h6 class="title">WEB</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                    <h6 class="title">ANÁLISIS DE RESULTADOS</h6>
+                                    <p class="subtitle">En base a la creación de contenido</p>
                                 </div>
                             </div> 
                         </div>                         
                     </div>
+
                     <div class="col-md-6 col-lg-4 advertising new">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/advertising-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
+                            <img src="assets/imgs/PortfolioRedaccion.png" class="img-fluid" alt="Artículos Marta Llorca para 'El Generacional'">                         
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/advertising-2.jpg"></a>
                                 <div class="text-holder">
-                                    <h6 class="title">ADVERSTISING</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                    <h6 class="title">REDACCIÓN DE ARTÍCULOS</h6>
+                                    <p class="subtitle">Para el medio digital 'El Generacional'</p>
                                 </div>
                             </div>    
                         </div>              
                     </div> 
-                    -->
+                    <!--
                     <div class="col-md-6 col-lg-4 web">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/graduacion.png" class="img-fluid" alt="Fotografía de autor - graduacion UMH">
+                            <img src="assets/imgs/PortfolioRedaccion2.png" class="img-fluid" alt="Reportajes Marta Llorca para 'El Generacional'">
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/web-4.jpg"></a>
                                 <div class="text-holder">
-                                    <h6 class="title">GRADUACIONES UMH</h6>
-                                    <p class="subtitle">Reportaje fotográfico</p>
+                                    <h6 class="title">REPORTAJES</h6>
+                                    <p class="subtitle">Para el medio digital 'El Generacional'</p>
                                 </div>
                             </div>
                         </div>                                                     
                     </div>
+                    -->
                     <!--
-
                     <div class="col-md-6 col-lg-4 advertising"> 
                         <div class="portfolio-item">
-                            <img src="assets/imgs/advertising-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
+                            <img src="assets/imgs/PortfolioRedaccion2.png" class="img-fluid" alt="Reportajes Marta Llorca para 'El Generacional'">                               
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/advertising-1.jpg"></a>
                                 <div class="text-holder">
-                                    <h6 class="title">ADVERSITING</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                    <h6 class="title">REDACCIÓN DE REPORTAJES</h6>
+                                    <p class="subtitle">Para el medio digital 'El Generacional'</p>
                                 </div>
                             </div>
                         </div>                                                       
                     </div> 
-
+                    
                     <div class="col-md-6 col-lg-4 web new">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/web-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                            <img src="assets/imgs/web-2.jpg" class="img-fluid" alt="Reportajes Marta Llorca para 'El Generacional'">  
                            <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/web-3.jpg"></a>
                                 <div class="text-holder">
                                     <h6 class="title">WEB</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                    <p class="subtitle">Para el medio digital 'El Generacional'</p>
                                 </div>
                             </div>
                         </div>                                                     
@@ -507,92 +504,94 @@ s-->
                     -->
                     <div class="col-md-6 col-lg-4 advertising new">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/PortfolioRedaccion.png" class="img-fluid" alt="Artículos de autor para El Generacional">       
+                            <img src="assets/imgs/PortfolioRedaccion2.png" class="img-fluid" alt="Reportajes Marta Llorca para 'El Generacional'">       
                            <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/advertising-3.jpg"></a>
                                 <div class="text-holder">
-                                    <h6 class="title">ARTÍCULOS</h6>
-                                    <p class="subtitle">Redactados en el medio digital 'El Generacional'</p>
+                                    <h6 class="title">REDACCIÓN DE REPORTAJES</h6>
+                                    <p class="subtitle">Para el medio digital 'El Generacional'</p>
                                 </div>
                             </div>
-                        </div>   
-
+                        </div>                                                       
                     </div> 
+                    
                     <div class="col-md-6 col-lg-4 advertising new"> 
                         <div class="portfolio-item">
-                            <img src="assets/imgs/PortfolioRedaccion2.png" class="img-fluid" alt="Reportajes de autor para El Generacional">            
+                            <img src="assets/imgs/cronica.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">            
                             <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/PortfolioRedaccion2.png"></a>
+                                <a class="img-popup" href="assets/imgs/advertising-4.jpg"></a>
                                 <div class="text-holder">
-                                    <h6 class="title">REPORTAJES</h6>
-                                    <p class="subtitle">Redactados para el medio digital 'El Generacional'</p>
+                                    <h6 class="title">CRÓNICAS MINUTO A MINUTO</h6>
+                                    <p class="subtitle">Para el medio digital 'El Generacional'</p>
                                 </div>
                             </div>
                         </div>
                                 
                     </div> 
-                    <!--
                     <div class="col-md-6 col-lg-4 branding new">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/branding-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                        
+                            <img src="assets/imgs/graduacion.png" class="img-fluid" alt="Fotografía de Marta Llorca para Graduaciones UMH">                        
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/branding-1.jpg"></a>
                                 <div class="text-holder">
-                                    <h6 class="title">BRANDING</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                    <h6 class="title">FOTOGRAFÍA PERSONAL</h6>
+                                    <p class="subtitle">Individualizada</p>
                                 </div>
                             </div> 
                         </div>
                     </div> 
+                    <!--
                     <div class="col-md-6 col-lg-4 branding">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/branding-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                            <img src="assets/imgs/branding-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/branding-2.jpg"></a>
                                 <div class="text-holder">
-                                    <h6 class="title">BRANDING</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                    <h6 class="title">BORRAR REPORTAJE FOTOGRÁFICO</h6>
+                                    <p class="subtitle">Graduaciones UMH</p>
                                 </div>
                             </div>
                         </div>                                                     
                     </div> 
+                    -->
                     <div class="col-md-6 col-lg-4 branding new">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/branding-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">   
+                            <img src="assets/imgs/fotoorla.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">   
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/branding-3.jpg"></a>
                                 <div class="text-holder">
-                                    <h6 class="title">BRANDING</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                    <h6 class="title">REPORTAJE FOTOGRÁFICO</h6>
+                                    <p class="subtitle">Graduaciones UMH</p>
                                 </div>
                             </div>
                         </div>                                                    
                     </div> 
-                    -->
+                    <!--
                     <div class="col-md-6 col-lg-4 branding">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/RRSS1.png" class="img-fluid" alt="Perfil Instagram @radio_umh">                      
+                            <img src="assets/imgs/branding-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                      
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/branding-4.jpg"></a>
                                 <div class="text-holder">
-                                    <h6 class="title">CREACIÓN DE CONTENIDO</h6>
-                                    <p class="subtitle">Para Radio UMH</p>
+                                    <h6 class="title">Es</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
                                 </div>
                             </div>
                         </div>                                                      
                     </div> 
                     <div class="col-md-6 col-lg-4 branding">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/RRSS2.png" class="img-fluid" alt="Estadísticas perfil Radio UMH">          
+                            <img src="assets/imgs/branding-5.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">          
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/branding-5.jpg"></a>
                                 <div class="text-holder">
-                                    <h6 class="title">ESTADÍSTICAS / RESULTADOS</h6>
-                                    <p class="subtitle">Análisis de los resultados obtenidos con las nuevas publicaciones</p>
+                                    <h6 class="title">Nada</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
                                 </div>
                             </div>
                         </div>                                                   
                     </div>
+                    -->
                 </div> 
             </div>  
         </div>            
